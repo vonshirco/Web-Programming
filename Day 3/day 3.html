@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<!--Forms-->
+		<h1>Training Application Forms</h1>
+		
+		<p>Please fill out this form to help us decide if you are suitable for this training.</p>
+		
+		<form method="post" action="index.html"> <!--"post" does not show your info in the url but "get" does, "action" takes you to another page-->
+		
+			<label for="fname">Name:</label>
+			<input type="text" name="fname" id="fname"> <br><br> <!--The type text gives a text entry box-->
+			<label for="sname">Surname:</label>
+			<input type="text" name="sname" id="sname"> <br>
+			
+			<p>Sex: <!--value attributes will be used in server side-->
+			<input type="radio" name="sex" id="male" value="male">
+			<label for="male">Male</label>
+			<input type="radio" name="sex" id="female" value="female">
+			<label for="female">Female</label>
+			</p>
+			
+			<p>Course:
+			<input type="checkbox" name="course" id="is181" value="is181">
+			<label for="is181">IS 181</label>
+			<input type="checkbox" name="course" id="cs175" value="cs175">
+			<label for="cs175">CS 175</label>
+			<input type="checkbox" name="course" id="is171" value="is171">
+			<label for="is171">IS 171</label>
+			<input type="checkbox" name="course" id="mt100" value="mt100">
+			<label for="mt100">MT 100</label>
+			</p>
+			
+			<p>
+				<label for="cv">CV:</label>
+				<input type="file" name="cv" id="cv" value="CV">
+			</p>
+			
+			<p>
+				<label for="tdate">Date for trainig:</label>
+				<input type="date" name="tdate" id="tdate" value="Date for training">
+			</p>
+			
+			<!--For Local time
+			<p>
+				<label for="tdate">Date for trainig:</label>
+				<input type="datetime-local" name="tdate" id="tdate" value="DAte for training">
+			</p>
+			-->
+			
+			<p>
+				<label for="upass">Password:</label>
+				<input type="password" name="upass" id="upass">
+			</p>
+			
+			<p>
+			<label for="yos">Year of Study:</label>
+			<select name="yos" id="yos">
+				<option>==Select Year of Study==</option>
+				<option>First Year</option>
+				<option>Second Year</option>
+				<option>Third Year</option>
+				<option>Fourth Year</option>
+			</select>
+			</p>
+			
+			<!--Buttons; The type - button and reset understands this is a button-->
+			<input type="submit" name="sbutton" id="sbutton" value= "Submit"> 
+			<input type="reset" name="rbutton" id="rbutton" value= "Clear"> 
+			
+			<!--HTML5 input types link: https://www.w3schools.com/html/html_form_input_types.asp -->
+		</form>
+		
+	</body>
+</html>
