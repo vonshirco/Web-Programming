@@ -1,0 +1,40 @@
+JavaScript:
+Dynamic and lightweight web programming language
+enables implementation of client-side script that cab interact with users to make dynamic web pages
+
+Interpreted language with object oriented capabilities
+
+More facts about JavaScript:
+- JavaScript is a lightweight, interpreted programming language
+- Designed for creating network-centric applications
+- Complementary to and integrated with Java
+- Complementary to and integrated with HTML
+- Open and Cross-platform
+
+Client-Side Scripting:
+JavaScript is commonly used for client-side scripting
+eg. Most of the time JavaScript is usually executed when the user submit info in the form and they are valid
+also traps user-initiated events such as button clicks, links etc
+
+JavaScript Upside (Advantages):
+- Less server interation; saves server traffic which means less load on your server.
+- Immediate feedback to the visitors; no need to wait for page reload to see if they have forgotten to enter something
+- Increased interactivity; you can create interfaces that react when the user hovers over them with the mouse or activates by your keyboard
+- Richer interfaces; such as drag-and-drop menus
+
+JavaScript Downsides (Disavantages):
+- Client-Side JavaScript does not allow the reading and writing on files (for security reason)
+- JavaScript cannot be used for networking applications(No such support available)
+- JavaScript doesn't have any multithreading or multiprocessor capabilities.
+
+Syntax:
+<script language="javascript" type="text/javascript">
+	Java code
+</script>
+
+Can be placede anywherde,but adviced to place it in the head tag
+
+JavaScript Syntax features:
+- JavaScript ignores white spaces (You can add white spaces to your script to make it more readable)
+- Case Sensitivity; for keyword, identifiers, function names
+- Comments; Single line //, Multiple lines /**/
