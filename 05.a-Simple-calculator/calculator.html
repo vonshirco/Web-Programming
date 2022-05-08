@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script language="javascript" type="text/javascript">
+        //Operations funcions
+        /*
+        The parseInt function converts its first argument to a string, parses 
+        that string, then returns an integer or NaN
+        ---------------------------
+        The Document method getElementById() returns an Element object representing 
+        the element whose id property matches the specified string.
+        */
+
+        function addition(){
+            var v1 = parseInt(document.getElementById("textVal1").value);
+            var v2 = parseInt(document.getElementById("textVal2").value);
+            document.getElementById("results").value = v1 + v2;
+        }
+
+        function substration(){
+            var v1 = parseInt(document.getElementById("textVal1").value);
+            var v2 = parseInt(document.getElementById("textVal2").value);
+            document.getElementById("results").value = v1 - v2;
+        }
+
+        function multiplication(){
+            var v1 = parseInt(document.getElementById("textVal1").value);
+            var v2 = parseInt(document.getElementById("textVal2").value);
+            document.getElementById("results").value = v1 * v2;
+        }
+
+        function division(){
+            var v1 = parseInt(document.getElementById("textVal1").value);
+            var v2 = parseInt(document.getElementById("textVal2").value);
+            document.getElementById("results").value = v1 / v2;
+        }
+
+        function reminder(){
+            var v1 = parseInt(document.getElementById("textVal1").value);
+            var v2 = parseInt(document.getElementById("textVal2").value);
+            document.getElementById("results").value = v1 % v2;
+        }
+       /*
+        function clear(){
+            document.getElementById("textValue").value = "";
+            document.getElementById("textVal2").value = "";
+            document.getElementById("results").value = "";
+        }*/
+
+    </script>
+
+</head>
+
+<body>
+    <h1>A Simple Calculator</h1>
+    <form>
+
+        <div class="grid">
+            <div class="left">
+                <label>First Number:</label>
+            </div>
+            <div class="right">
+                <input type="text" id="textVal1" class="entry"><br><br>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="left">
+                <label>Second Number:</label>
+            </div>
+            <div class="right">
+                <input type="text" id="textVal2" class="entry"><br><br>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="left">
+                <label>Results:</label>
+            </div>
+            <div class="right"> 
+                <input type="text" id="results" class="entry"><br><br>
+            </div>
+        </div>
+
+        <center>
+            <input type="button" value="+" onclick="addition()">
+            <input type="button" value="-" onclick="substration()">
+            <input type="button" value="x" onclick="multiplication()">
+            <input type="button" value="/" onclick="division()">
+            <input type="button" value="rem" onclick="reminder()">
+            <input type="reset" value="reset" onclick="clear()">
+        </center>
+    </form>
+</body>
+</html>

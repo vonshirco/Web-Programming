@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('udsm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    }
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #332b13;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    }
+
+form{
+    background-color: #ffffff99;
+    margin:40px;
+    display: block;
+    padding: 60px;
+    }
+
+.grid{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.left{
+    width: 40%;
+    float: left;
+}
+
+.right{
+    width: 60%;
+    float: right;
+}
+
+label{
+    float: right;
+    padding-right: 50px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    }
+
+.entry{
+    height: 40px;
+    width: 70%;
+    border-radius: 4px;
+    background-color: #0f9029;
+    outline: none;
+    border-color: #2251af;
+    padding-left: 15px;
+    border-color:#17518a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    }
+
+.entry:hover{
+    border-color:#273746;
+    }
+
+input[type="button"]{
+    background-color: #368bda;
+    color: white;
+    width: 100px;
+    height: 150;
+    display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+input[type="reset"]{
+    background-color: #ee463d;
+    color: white;
+    width: 100px;
+    display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+
+
