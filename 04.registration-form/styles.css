@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #7d848a;
+  }
+
+  .info-box{
+    position: absolute;
+    top: 50%;
+    right: 27%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+  
+    /* background: #282b2e; */
+    box-sizing: border-box;
+    /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
+  }
+
+  .info {
+    text-align: center;
+    }
+
+  .btn-item, button {
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px; 
+    border: none;
+    background: #26a9e0; 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    }
+    .btn-item {
+    display: inline-block;
+    margin: 20px 5px 0;
+    }
+    button {
+    width: 100%;
+    }
+    button:hover, .btn-item:hover {
+    background: #85d6de;
+    }
+    
+    /**/
+  
+  .register-box {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #282b2e;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    /*border-radius: 0px;*/
+  }
+  
+  .register-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    /*text-align: center;*/
+  }
+
+  .register-box .check {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    /*text-align: center;*/
+  }
+
+  
+  .register-box .user-box {
+    position: relative;
+  }
+  
+  .register-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .register-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .register-box .user-box input:focus ~ label,
+  .register-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+  .register-box .user-box input[type=submit] {
+    /* font-family:'Open Sans Condensed', sans-serif; 
+    text-transform:uppercase;
+    outline:none; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #44a6fc;
+    padding: 10px;
+    color: white;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    font-size: 1.0em;
+    /* font-weight: bold; */
+    margin-top: 5px;
+    cursor: pointer;
+    position:relative;
+    top:0;
+  }
+  
+  .register-box .user-box input[type=submit]:hover {
+    background-color: #2980b9;
+  }
+  
+  .register-box .user-box input[type=submit]:active {
+  background:#5C8CA7;
+  }
+  
+  
