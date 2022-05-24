@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Form</title>
+    <script language="javascript" type="text/javascript" src="formValidation.js">
+
+    </script>
+
+</head>
+<body>
+	<form > <!--</form>method="post" action="index.html"> "post" does not show your info in the url but "get" does, "action" takes you to another page-->
+		
+			<label for="fname">First name:</label>
+			<input type="text" name="fname" id="fname"> <br><br> <!--The type text gives a text entry box-->
+			<label for="sname">Surname:</label>
+			<input type="text" name="sname" id="sname"> <br><br>
+			<label for="sname">Email:</label>
+			<input type="email" name="uemail" id="uemail"> <br><br>
+			
+			<label>Sex:</label>
+			<input type="radio" id="male" name="sex" value="male">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="sex" value="female">
+			<label for="female">Female</label><br><br>
+
+			<!--<label for="">Programme</label><br>
+			<input type="checkbox" id="bcs" name="bcs" value="BSc in Computer Science">
+			<label for="bcs">BSC in Computer Science</label><br>
+			<input type="checkbox" id="bit" name="bit" value="BSc Bsiness">
+			<label for="bit">BSc in Bussiness Information Technology</label><br><br>-->
+
+			<label for="">Courses</label><br>
+			<input type="checkbox" id="is181" name="Courses" value="Web Programming">
+			<label for="is181">Web Programming</label><br>
+			<input type="checkbox" id="cs175" name="Courses" value="Programming in Java">
+			<label for="cs175">Programming in Java</label><br><br>
+
+			<input type="submit" value="save" onclick="formValidator()">
+			
+			
+		</form>
+    
+</body>
+</html>

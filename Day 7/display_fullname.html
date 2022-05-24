@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>fullname form</title>
+		
+	</head>
+	
+	<body>
+		<form>
+		<label>First name:</label>
+		<input type="text" id="fname" name="fname"><br><br>
+		<label>Surname</label>
+		<input type="text" id="sname" name="sname"><br><br>
+		<label>Ful Name :</label>
+		<input type="text" id="flname" name="flname" onclick="fullname()"><br><br>
+		</form>
+		
+		<script language="javascript" type="text/javascript">
+		//Fuction to concatenate the first and second name to full name 
+		function fullname(){
+		var firstname = document.getElementById("fname").value;
+		var surname = document.getElementById("sname").value;
+		document.getElementById("flname").value = firstname.concat(" " +surname);
+		}
+		</script>
+	</body>
+</html>
