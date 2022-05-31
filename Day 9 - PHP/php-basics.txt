@@ -1,0 +1,45 @@
+PHP
+----------------------------------------------------------------------------------------------------------------------------
+- Stands for Hypertext Preprocessor
+- Programming Language that allows web developers to create dynamic content that interacts with database
+- Used for developing web-base software applications Server side scripting language that is embedded in HTML
+- Can be used to create sessions
+----------------------------------------------------------------------------------------------------------------------------
+- You can interact with number of databases eg. mysql
+- PHP is speedy in its execution (The mysql server once started execute even very complex queries with huge results sets)
+- PHP supports a large number of major protocol eg. POP3, IMAP and LDAP.
+- It's server scripting language that is embeeded inhtml, it is used to manage dynamic content, database session tracking, even build entire e-commerce sites
+- Is a forgiving as possible
+- Has a C-like syntaxx
+----------------------------------------------------------------------------------------------------------------------------
+Some common uses of PHP
+- PHP performs system functions i.e from files on a system it can create open, read, write and close them.
+- PHP can handle forms
+- Can add, delete and modify database elements
+- Access cookies variables and set cookies
+- Can be used to restrict users to access some pages of your website
+- Can encrypt data 
+----------------------------------------------------------------------------------------------------------------------------
+PHP Syntax
+<?php  PHP code goes here ?>
+
+<? PHP code goes here ?>
+
+<script language="php"> PHP code goes here </script>
+----------------------------------------------------------------------------------------------------------------------------
+Commenting PHP code
+#This is a Commenting
+#This is a Second line of the Commenting
+//This is a comment too
+----------------------------------------------------
+Commenting Multiple lines
+/*
+This is a..
+comment..
+with multiple line..
+*/
+----------------------------------------------------------------------------------------------------------------------------
+Openinng a php file with xampp
+- In a browser url/address entry
+localhost/folder_name/file_name.php
+----------------------------------------------------------------------------------------------------------------------------
