@@ -1,0 +1,6 @@
+1. Write a JavaScript program that uses an array to store information and  display them on a 
+webpage.
+
+2. Write a JavaScript program to replace the phrase "Informatics and Virtual Education" in 
+"Collage of Information and Virtual Education" with "Information and Communication 
+Technologies"
