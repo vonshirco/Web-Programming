@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email-validation</title>
+   
+</head>
+    <body onload="document.form1.text1.focus()">
+
+    <div class="mail">
+
+      <h2>Input an email address</h2>
+
+      <form name="form1" action="#">
+
+       <input type="text" name="text1"/><br><br>
+       <input type="submit" name="validate" value="Validate" onclick="ValidateEmail(document.form1.text1)"/>
+
+      </form>
+
+    </div>
+
+    <script>
+        function ValidateEmail(input){
+            var validRegex =  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+            if(input.value.match(validRegex)){
+                alert("Valid Email Address!");
+                document.form1.text1.focus();
+                return true;
+            }else{
+                alert("Invalid Email Address!");
+                document.form1.text1.focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
