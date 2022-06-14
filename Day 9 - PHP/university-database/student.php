@@ -22,6 +22,8 @@ surname, email, nationality, dob) VALUES ('$reg', '$fname', '$mname', '$sname', 
 
  if(mysqli_query($connection, $sql)){
      echo "Records inserted successfully.";
+
+     header("location:retrieve.php");
  }else{
      echo "ERROR: Could not able to execute $sql. " . mysqli_error($connection);
  }
